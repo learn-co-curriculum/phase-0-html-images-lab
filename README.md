@@ -4,4 +4,4 @@
 
 <p><a href="https://www.youtube.com/watch?v=VQjS7umZeGc">HTML Tables</a></p>.
 
-<a href='https://learn.co/lessons/html-images' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-images' title='HTML Images'>HTML Images</a> on Learn.co and start learning to code for free.</p>
