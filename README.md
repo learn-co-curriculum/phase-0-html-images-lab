@@ -20,7 +20,7 @@ git checkout main-pages
 If you want to use the demo repository to follow along:
 
 ```
-git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`
+git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
 cd exceptional-realy-demo
 git fetch --all
 git checkout html-images
