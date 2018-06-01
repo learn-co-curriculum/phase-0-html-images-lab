@@ -14,10 +14,10 @@ pages much more engaging and visually appealing.
 
 ## Objective
 
-- Learn how to add images to HTML using the `img` tag
-- Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
+1. Learn how to add images to HTML using the `img` tag
+2. Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
 
-### `img`
+## Introduce the Image Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
 of image types, including animated GIFs, bitmaps and vector graphics, though
@@ -29,7 +29,7 @@ Instead, the relevant information is stored in attributes within the tag itself.
 There are two main attributes, `src`, the _source_ of the image, and `alt`, the
 _alternate_ text.
 
-#### `src`
+## Introduce the Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
 to display.  The image file can be local, say, for instance, if you're
@@ -51,7 +51,7 @@ full URL as the source:
 The `src` attribute always necessary, as without it, the `img` tag would have
 nothing to display.
 
-#### `alt`
+## Introduce the Image Alt Attribute
 
 The `alt` attribute contains text relevant to the image we're displaying, and
 will appear in its place if the image fails to load.
@@ -71,7 +71,7 @@ To include an `alt` attribute, add it in along with the `src` attribute:
 <img src="https://i.imgur.com/H1qsYEl.png" alt="comedic crow gets wholesome support">
 ```
 
-#### `title`
+## Introduce the Image Title Attribute
 
 One additional attribute that can be useful is the `title`. Content added to
 this attribute will display when we hover over the image with our mouse. If we
@@ -88,7 +88,7 @@ appear saying 'We're here to help you!'
 The `title` attribute isn't necessary and is often left out, but can be a nice
 detail to include.
 
-## Challenge
+## Reinforce Our Understanding Of The Image Tag Through Creation
 
 Its time to practice creating some images! For this challenge, feel free to use
 any images you'd like - the tests are looking for the correct tag and
