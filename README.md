@@ -16,8 +16,9 @@ pages much more engaging and visually appealing.
 
 1. Learn how to add images to HTML using the `img` tag
 2. Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
+3. Reinforce our understanding of the image tag through creation
 
-## Introduce the Image Tag
+## Learn How To Add Images To HTML Using The `img` Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
 of image types, including animated GIFs, bitmaps and vector graphics, though
@@ -29,7 +30,9 @@ Instead, the relevant information is stored in attributes within the tag itself.
 There are two main attributes, `src`, the _source_ of the image, and `alt`, the
 _alternate_ text.
 
-## Introduce the Image Source Attribute
+## Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
+
+### Introduce the Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
 to display.  The image file can be local, say, for instance, if you're
@@ -51,7 +54,7 @@ full URL as the source:
 The `src` attribute always necessary, as without it, the `img` tag would have
 nothing to display.
 
-## Introduce the Image Alt Attribute
+### Introduce the Image Alt Attribute
 
 The `alt` attribute contains text relevant to the image we're displaying, and
 will appear in its place if the image fails to load.
@@ -71,7 +74,7 @@ To include an `alt` attribute, add it in along with the `src` attribute:
 <img src="https://i.imgur.com/H1qsYEl.png" alt="comedic crow gets wholesome support">
 ```
 
-## Introduce the Image Title Attribute
+### Introduce the Image Title Attribute
 
 One additional attribute that can be useful is the `title`. Content added to
 this attribute will display when we hover over the image with our mouse. If we
