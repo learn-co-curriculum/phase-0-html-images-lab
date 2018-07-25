@@ -66,7 +66,7 @@ to provide some sort of message to a website visitor if the image fails to load,
 especially if the image is relevant to the rest of the content.  Alt text on a
 failed image will appear along with a small 'broken image' icon:
 
-<img src="http://blog.flatironschool.com/wp-content/uploads/2015/03/FS_Circle_Slashes-150x150.pn" alt="flatiron school logo">
+<img src="http://blog.flatironschool.com/wp-content/uploads/2015/03/FS_Circle_Slashes-150x150.png" alt="flatiron school logo">
 
 To include an `alt` attribute, add it in along with the `src` attribute:
 
