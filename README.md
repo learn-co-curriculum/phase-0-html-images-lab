@@ -1,6 +1,12 @@
 # HTML Images
 
-## Problem Statement
+## Learning Goals
+
+1. Learn how to add images to HTML using the `img` tag
+2. Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
+3. Reinforce our understanding of the image tag through creation
+
+## Introduction
 
 Images are absolutely critical to making appealing and engaging websites. Can
 you imagine the web without them? No cat memes. No animated dancing bananas! No
@@ -11,12 +17,6 @@ _Instagram_, at all. The internet would be a pretty boring and sad place!
 In this lesson, we will be discussing how to include images in your HTML, along
 with some important attributes of the tag. With images, you can make your web
 pages much more engaging and visually appealing.
-
-## Objective
-
-1. Learn how to add images to HTML using the `img` tag
-2. Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
-3. Reinforce our understanding of the image tag through creation
 
 ## Learn How To Add Images To HTML Using The `img` Tag
 
