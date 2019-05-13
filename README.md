@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-1. Learn how to add images to HTML using the `img` tag
-2. Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
-3. Reinforce our understanding of the image tag through creation
+1. Add images to HTML using the `img` tag
+2. Use `img` tag attributes
+3. Create images
 
 ## Introduction
 
@@ -18,7 +18,7 @@ In this lesson, we will be discussing how to include images in your HTML, along
 with some important attributes of the tag. With images, you can make your web
 pages much more engaging and visually appealing.
 
-## Learn How To Add Images To HTML Using The `img` Tag
+## Add Images to HTML Using the `img` Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
 of image types, including animated GIFs, bitmaps and vector graphics, though
@@ -30,9 +30,9 @@ Instead, the relevant information is stored in attributes within the tag itself.
 There are two main attributes, `src`, the _source_ of the image, and `alt`, the
 _alternate_ text.
 
-## Practice using the `img` tag and some of its attributes, `src`, `alt` and `title`
+## Use the `img` Tag Attributes
 
-### Introduce the Image Source Attribute
+### The Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
 to display.  The image file can be local, say, for instance, if you're
@@ -54,7 +54,7 @@ full URL as the source:
 The `src` attribute always necessary, as without it, the `img` tag would have
 nothing to display.
 
-### Introduce the Image Alt Attribute
+### The Image Alt Attribute
 
 The `alt` attribute contains text relevant to the image we're displaying, and
 will appear in its place if the image fails to load.
@@ -74,7 +74,7 @@ To include an `alt` attribute, add it in along with the `src` attribute:
 <img src="https://i.imgur.com/H1qsYEl.png" alt="comedic crow gets wholesome support">
 ```
 
-### Introduce the Image Title Attribute
+### The Image Title Attribute
 
 One additional attribute that can be useful is the `title`. Content added to
 this attribute will display when we hover over the image with our mouse. If we
@@ -91,7 +91,7 @@ appear saying 'We're here to help you!'
 The `title` attribute isn't necessary and is often left out, but can be a nice
 detail to include.
 
-## Reinforce Our Understanding Of The Image Tag Through Creation
+## Create Images
 
 Its time to practice creating some images! For this challenge, feel free to use
 any images you'd like - the tests are looking for the correct tag and
