@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-1. Add images to HTML using the `img` tag
+1. Recognize the `img` tag
 2. Use `img` tag attributes
 3. Create images
 
@@ -18,7 +18,7 @@ In this lesson, we will be discussing how to include images in your HTML, along
 with some important attributes of the tag. With images, you can make your web
 pages much more engaging and visually appealing.
 
-## Add Images to HTML Using the `img` Tag
+## Recognize the `img` Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
 of image types, including animated GIFs, bitmaps and vector graphics, though
