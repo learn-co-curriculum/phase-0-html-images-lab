@@ -108,7 +108,7 @@ Your challenge is to write _three_ image tags:
 * The second should include an alt text, in addition to a source
 * The third should have both an alt and source attribute, as well as a _title_ attribute
 
-Run `learn` and read the tests as you go.  When you've passed all the tests, run
+Run `learn test` and read the tests as you go.  When you've passed all the tests, run
 `learn submit` before continuing on to the next lesson.
 
 ## Conclusion
