@@ -117,5 +117,3 @@ With images, we can fill our web pages with visual content in addition to text.
 Brand logos, animated instructional guides, personal artwork and photography, or
 pictures of you and your friends - you now have the ability to create visually
 appealing content of _any type!_
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-images' title='HTML Images'>HTML Images</a> on Learn.co and start learning to code for free.</p>
