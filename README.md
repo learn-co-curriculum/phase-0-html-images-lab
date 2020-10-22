@@ -66,7 +66,7 @@ to provide some sort of message to a website visitor if the image fails to load,
 especially if the image is relevant to the rest of the content.  Alt text on a
 failed image will appear along with a small 'broken image' icon:
 
-<img src="http://blog.flatironschool.com/wp-content/uploads/2015/03/FS_Circle_Slashes-150x150.png" alt="flatiron school logo">
+![flatiron school logo](http://blog.flatironschool.com/wp-content/uploads/2015/03/FS_Circle_Slashes-150x150.png)
 
 To include an `alt` attribute, add it in along with the `src` attribute:
 
@@ -81,7 +81,7 @@ this attribute will display when we hover over the image with our mouse. If we
 were creating an `img` tag with `src`, `alt` and `title` for a company logo, it
 might look something like this:
 
-```
+```html
 <img src="../images/my_company_logo.png" alt="my company name" title="We're here to help you!">
 ```
 
