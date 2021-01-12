@@ -18,6 +18,12 @@ In this lesson, we will be discussing how to include images in your HTML, along
 with some important attributes of the tag. With images, you can make your web
 pages much more engaging and visually appealing.
 
+## Getting Started
+
+Fork and clone this lesson into your local environment. Navigate into its directory
+in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
+run `bundle` to install the lab's dependencies.
+
 ## Recognize the `img` Tag
 
 Images are inserted into HTML using the `img` tag. The tag can display a variety
@@ -108,8 +114,7 @@ Your challenge is to write _three_ image tags:
 * The second should include an alt text, in addition to a source
 * The third should have both an alt and source attribute, as well as a _title_ attribute
 
-Run `learn test` and read the tests as you go.  When you've passed all the tests, run
-`learn submit` before continuing on to the next lesson.
+Run `rspec` and read the tests as you go.
 
 ## Conclusion
 
