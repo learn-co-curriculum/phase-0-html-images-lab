@@ -57,7 +57,7 @@ full URL as the source:
 <img src="https://i.imgur.com/H1qsYEl.png">
 ```
 
-The `src` attribute always necessary, as without it, the `img` tag would have
+The `src` attribute is always necessary, as without it, the `img` tag would have
 nothing to display.
 
 ### The Image Alt Attribute
