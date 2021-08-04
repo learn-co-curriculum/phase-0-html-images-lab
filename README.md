@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-1. Recognize the `img` tag
-2. Use `img` tag attributes
-3. Create images
+- Recognize the `img` tag
+- Use `img` tag attributes
+- Create images
 
 ## Introduction
 
@@ -20,9 +20,9 @@ pages much more engaging and visually appealing.
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its directory
-in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
-run `bundle` to install the lab's dependencies.
+Fork and clone this lesson into your local environment. Navigate into its
+directory in the terminal, then run `code .` to open the files in Visual Studio
+Code. Finally, run `bundle` to install the lab's dependencies.
 
 ## Recognize the `img` Tag
 
@@ -41,12 +41,12 @@ _alternate_ text.
 ### The Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
-to display.  The image file can be local, say, for instance, if you're
+to display. The image file can be local, say, for instance, if you're
 publishing a website and have a local stored in a folder, your source may look
 like this:
 
 ```html
-<img src="../images/my_company_logo.png">
+<img src="../images/my_company_logo.png" />
 ```
 
 However, its very common, even when publishing your own websites, to have images
@@ -54,7 +54,7 @@ hosted somewhere else on the internet. In these situations, we need to provide a
 full URL as the source:
 
 ```html
-<img src="https://i.imgur.com/H1qsYEl.png">
+<img src="https://i.imgur.com/H1qsYEl.png" />
 ```
 
 The `src` attribute is always necessary, as without it, the `img` tag would have
@@ -65,20 +65,27 @@ nothing to display.
 The `alt` attribute contains text relevant to the image we're displaying, and
 will appear in its place if the image fails to load.
 
-While it isn't required, it is highly recommended that every image includes an
-`alt` attribute. The `alt` text is important for screen readers for the visually
-impaired, as the text will be read out loud to the site visitor. It is also nice
-to provide some sort of message to a website visitor if the image fails to load,
-especially if the image is relevant to the rest of the content.  Alt text on a
-failed image will appear along with a small 'broken image' icon:
+While it isn't required, it is **highly recommended** that every image includes
+an `alt` attribute. The `alt` text is important for screen readers for the
+visually impaired, as the text will be read out loud to the site visitor. It is
+also nice to provide some sort of message to a website visitor if the image
+fails to load, especially if the image is relevant to the rest of the content.
+Alt text on a failed image will appear along with a small 'broken image' icon:
 
 ![flatiron school logo](http://blog.flatironschool.com/wp-content/uploads/2015/03/FS_Circle_Slashes-150x150.png)
 
 To include an `alt` attribute, add it in along with the `src` attribute:
 
 ```html
-<img src="https://i.imgur.com/H1qsYEl.png" alt="comedic crow gets wholesome support">
+<img
+  src="https://i.imgur.com/H1qsYEl.png"
+  alt="comedic crow gets wholesome support"
+/>
 ```
+
+> **Note** When an HTML element gets too long for one line in your text editor,
+> it's appropriate to separate out each attribute on its own line as we've done
+> above. This helps make your HTML code more readable.
 
 ### The Image Title Attribute
 
@@ -88,7 +95,11 @@ were creating an `img` tag with `src`, `alt` and `title` for a company logo, it
 might look something like this:
 
 ```html
-<img src="../images/my_company_logo.png" alt="my company name" title="We're here to help you!">
+<img
+  src="../images/my_company_logo.png"
+  alt="my company name"
+  title="We're here to help you!"
+/>
 ```
 
 When a visitor to your company site hovers over the logo, they'll see a message
@@ -101,18 +112,21 @@ detail to include.
 
 Its time to practice creating some images! For this challenge, feel free to use
 any images you'd like - the tests are looking for the correct tag and
-attributes, not the content.  If you're not sure what to use, feel free to use
+attributes, not the content. If you're not sure what to use, feel free to use
 the following URL as your source:
 
+```txt
 https://s3.amazonaws.com/ironboard-learn/lion.jpg
+```
 
 ![lion](https://s3.amazonaws.com/ironboard-learn/lion.jpg)
 
 Your challenge is to write _three_ image tags:
 
-* The first should have _just_ a _source_ attribute
-* The second should include an alt text, in addition to a source
-* The third should have both an alt and source attribute, as well as a _title_ attribute
+- The first should have _just_ a _source_ attribute
+- The second should include an alt text, in addition to a source
+- The third should have both an alt and source attribute, as well as a _title_
+  attribute
 
 Run `rspec` and read the tests as you go.
 
@@ -120,8 +134,8 @@ Run `rspec` and read the tests as you go.
 
 Currently, the work you've done on this assignment is only on your local
 machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use
-the following commands to do this:
+changes you've made, commit them, and push the commit up to GitHub. Use the
+following commands to do this:
 
 ```sh
 git add .
