@@ -41,9 +41,8 @@ _alternate_ text.
 ### The Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
-to display. The image file can be local, say, for instance, if you're
-publishing a website and have a local stored in a folder, your source may look
-like this:
+to display. The image file can be local, say, for instance, if you're publishing
+a website and have a local stored in a folder, your source may look like this:
 
 ```html
 <img src="../images/my_company_logo.png" />
@@ -128,7 +127,7 @@ Your challenge is to write _three_ image tags:
 - The third should have both an alt and source attribute, as well as a _title_
   attribute
 
-Run `rspec` and read the tests as you go.
+Run `npm test` and read the tests as you go.
 
 ## Saving Your Work Remotely
 
