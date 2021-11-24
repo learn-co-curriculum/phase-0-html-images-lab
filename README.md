@@ -22,7 +22,7 @@ pages much more engaging and visually appealing.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `bundle` to install the lab's dependencies.
+Code. Finally, run `npm install` to install the lab's dependencies.
 
 ## Recognize the `img` Tag
 
