@@ -150,5 +150,5 @@ recent commit, and your solution will be present in the files.
 
 With images, we can fill our web pages with visual content in addition to text.
 Brand logos, animated instructional guides, personal artwork and photography, or
-pictures of you and your friends - you now have the ability to create visually
+pictures of you and your friends — you now have the ability to create visually
 appealing content of _any type!_
