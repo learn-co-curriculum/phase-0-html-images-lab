@@ -41,16 +41,17 @@ _alternate_ text.
 ### The Image Source Attribute
 
 The `src` attribute provides the relative path or URL to the image file we want
-to display. The image file can be local, say, for instance, if you're publishing
-a website and have a local stored in a folder, your source may look like this:
+to display. The image file can be local; for example, if you're publishing a
+website and have your images stored in a folder within your file structure, your
+source may look like this:
 
 ```html
 <img src="../images/my_company_logo.png" />
 ```
 
-However, its very common, even when publishing your own websites, to have images
-hosted somewhere else on the internet. In these situations, we need to provide a
-full URL as the source:
+However, it's very common, even when publishing your own websites, to have
+images hosted somewhere else on the internet. In these situations, we need to
+provide a full URL as the source:
 
 ```html
 <img src="https://i.imgur.com/H1qsYEl.png" />
@@ -71,7 +72,7 @@ also nice to provide some sort of message to a website visitor if the image
 fails to load, especially if the image is relevant to the rest of the content.
 Alt text on a failed image will appear along with a small 'broken image' icon:
 
-![flatiron school logo](http://blog.flatironschool.com/wp-content/uploads/2015/03/FS_Circle_Slashes-150x150.png)
+![Flatiron Logo](broken-image.png)
 
 To include an `alt` attribute, add it in along with the `src` attribute:
 
@@ -82,7 +83,7 @@ To include an `alt` attribute, add it in along with the `src` attribute:
 />
 ```
 
-> **Note** When an HTML element gets too long for one line in your text editor,
+> **Note**: When an HTML element gets too long for one line in your text editor,
 > it's appropriate to separate out each attribute on its own line as we've done
 > above. This helps make your HTML code more readable.
 
@@ -110,7 +111,7 @@ detail to include.
 ## Create Images
 
 Its time to practice creating some images! For this challenge, feel free to use
-any images you'd like - the tests are looking for the correct tag and
+any images you'd like — the tests are looking for the correct tag and
 attributes, not the content. If you're not sure what to use, feel free to use
 the following URL as your source:
 
@@ -123,7 +124,7 @@ https://s3.amazonaws.com/ironboard-learn/lion.jpg
 Your challenge is to write _three_ image tags:
 
 - The first should have _just_ a _source_ attribute
-- The second should include an alt text, in addition to a source
+- The second should include an alt attribute, in addition to a source
 - The third should have both an alt and source attribute, as well as a _title_
   attribute
 
@@ -133,5 +134,5 @@ Run `learn test` and read the tests as you go.
 
 With images, we can fill our web pages with visual content in addition to text.
 Brand logos, animated instructional guides, personal artwork and photography, or
-pictures of you and your friends - you now have the ability to create visually
+pictures of you and your friends — you now have the ability to create visually
 appealing content of _any type!_
