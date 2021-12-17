@@ -22,7 +22,7 @@ pages much more engaging and visually appealing.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `npm install` to install the lab's dependencies.
+Code.
 
 ## Recognize the `img` Tag
 
@@ -128,23 +128,7 @@ Your challenge is to write _three_ image tags:
 - The third should have both an alt and source attribute, as well as a _title_
   attribute
 
-Run `npm test` and read the tests as you go.
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use the
-following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your solution will be present in the files.
+Run `learn test` and read the tests as you go.
 
 ## Conclusion
 
