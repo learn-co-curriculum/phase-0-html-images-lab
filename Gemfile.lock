@@ -5,7 +5,7 @@ GEM
     diff-lcs (1.4.4)
     json (2.5.1)
     method_source (1.0.0)
-    nokogiri (1.12.5-x86_64-darwin)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     pry (0.14.1)
       coderay (~> 1.1)
@@ -32,6 +32,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   nokogiri
