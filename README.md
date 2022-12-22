@@ -20,7 +20,7 @@ pages much more engaging and visually appealing.
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its
+**Fork and clone** this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
@@ -128,7 +128,7 @@ Your challenge is to write _three_ image tags:
 - The third should have both an alt and source attribute, as well as a _title_
   attribute
 
-Run `learn test` and read the tests as you go.
+Run `npm test` and read the tests as you go.
 
 ## Conclusion
 
