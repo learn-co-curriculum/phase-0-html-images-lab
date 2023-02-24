@@ -65,11 +65,12 @@ nothing to display.
 The `alt` attribute contains text relevant to the image we're displaying, and
 will appear in its place if the image fails to load.
 
-While it isn't required, it is **highly recommended** that every image includes
-an `alt` attribute. The `alt` text is important for screen readers for the
-visually impaired, as the text will be read out loud to the site visitor. It is
-also nice to provide some sort of message to a website visitor if the image
-fails to load, especially if the image is relevant to the rest of the content.
+Alt text is important for screen readers for the visually impaired, as the text
+will be read out loud to the site visitor. Alt text also improves accessibility
+for non-disabled users, who will get a message if the image fails to load. It is
+especially important if the image is used as additional content that expands
+upon the written content.
+
 Alt text on a failed image will appear along with a small 'broken image' icon:
 
 ![Flatiron Logo](broken-image.png)
@@ -83,9 +84,14 @@ To include an `alt` attribute, add it in along with the `src` attribute:
 />
 ```
 
-> **Note**: When an HTML element gets too long for one line in your text editor,
-> it's appropriate to separate out each attribute on its own line as we've done
-> above. This helps make your HTML code more readable.
+Note that we've separated out each attribute on its own line in the HTML above.
+When an element gets too long for one line in your text editor, separating the
+code as shown above will keep your HTML code more readable.
+
+> **Note**: While alt text isn't required _for the browser_, adherence to the
+> Americans with Disabilities Act is often enforced through legislation. Your
+> browser will not throw an error if there is no alt text with an image, so it
+> is up to you as the developer to adhere to best practices for accessibility.
 
 ### The Image Title Attribute
 
